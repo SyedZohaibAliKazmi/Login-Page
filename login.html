@@ -4,13 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>starry-world-Login</title>
+    <link rel="stylesheet" href="login.css">
     <link
-      rel="icon"
-      type="img/png"
-      href="../Login Page/image/Starry Logo.png">
+    rel="icon"type="img/png" href="./image/Starry Logo.png">
+      <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-   <h1>login
-   </h1> 
+   <div class="starry-world">
+      <form action="">
+          <h1>Login To Starry World</h1>
+
+      <!-- Email Address  -->
+          <div class="input-both">
+              <input type="text" placeholder="Email address" required>
+              <i class='bx bxs-envelope'></i>
+          </div>
+      <!-- Password  -->
+          
+          <div class="input-both">
+              <input type="password" placeholder="Password" required>
+              <i class='bx bxs-lock'></i>
+          </div>
+
+          <div class="remember">
+              <label><input type="checkbox">Remember Me</label>
+              <a href="#">Forget Password?</a>
+          </div>
+          <button type="submit" class="button">Login</button>
+
+          <div class="login">
+              <p>Or  <a href="./index.html">Sign Up</a></p>
+          </div>
+      </form>
+  </div>
 </body>
 </html>
